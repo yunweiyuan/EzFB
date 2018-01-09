@@ -1,0 +1,6 @@
+framework module Pods_EzFBUITests {
+  umbrella header "Pods-EzFBUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

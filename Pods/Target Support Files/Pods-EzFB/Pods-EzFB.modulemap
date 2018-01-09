@@ -1,0 +1,6 @@
+framework module Pods_EzFB {
+  umbrella header "Pods-EzFB-umbrella.h"
+
+  export *
+  module * { export * }
+}

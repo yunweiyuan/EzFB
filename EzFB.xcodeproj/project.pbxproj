@@ -7,6 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C05C9FE1EB15883009C247C /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C05C9FD1EB15883009C247C /* ShareViewController.swift */; };
+		1C05CA131EB1A42F009C247C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C05CA0F1EB1A42F009C247C /* Bolts.framework */; };
+		1C05CA141EB1A42F009C247C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C05CA101EB1A42F009C247C /* FBSDKCoreKit.framework */; };
+		1C05CA151EB1A42F009C247C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C05CA111EB1A42F009C247C /* FBSDKLoginKit.framework */; };
+		1C05CA161EB1A42F009C247C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C05CA121EB1A42F009C247C /* FBSDKShareKit.framework */; };
+		1C0C3A621EAE819600978231 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0C3A611EAE819600978231 /* CoreLocation.framework */; };
+		1C0C3A671EAED1C300978231 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C3A661EAED1C300978231 /* UserTableViewCell.swift */; };
+		1C0C3A691EAEF71500978231 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C3A681EAEF71500978231 /* Record.swift */; };
+		1C0C3A6B1EAF3CF900978231 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C3A6A1EAF3CF900978231 /* AlbumViewController.swift */; };
+		1C0C3A6D1EB012CA00978231 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C3A6C1EB012CA00978231 /* Album.swift */; };
+		1C0C3A6F1EB0144800978231 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C3A6E1EB0144800978231 /* AlbumTableViewCell.swift */; };
+		1C40A8211EAC75BE009A078A /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C40A8201EAC75BE009A078A /* MenuController.swift */; };
+		1C40A8261EAD4B8F009A078A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C40A8251EAD4B8F009A078A /* SWRevealViewController.m */; };
+		1C40A8291EAD523B009A078A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C40A8281EAD523B009A078A /* HomeViewController.swift */; };
+		1C40A8301EAD870A009A078A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C40A82F1EAD870A009A078A /* AboutViewController.swift */; };
+		1C40A8341EAD9575009A078A /* FavUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C40A8331EAD9575009A078A /* FavUserViewController.swift */; };
+		1C40A8361EAD9D08009A078A /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C40A8351EAD9D08009A078A /* UserViewController.swift */; };
+		1C46ED451EB0416800DEA73F /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46ED441EB0416800DEA73F /* PostViewController.swift */; };
+		1C46ED471EB05DAB00DEA73F /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46ED461EB05DAB00DEA73F /* PostTableViewCell.swift */; };
+		1C46ED491EB0625400DEA73F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46ED481EB0625400DEA73F /* Post.swift */; };
+		1C4C5CE81EB1F8F40045B9EA /* FavUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5CE71EB1F8F40045B9EA /* FavUserTableViewCell.swift */; };
+		1C4C5CEA1EB22E040045B9EA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5CE91EB22E040045B9EA /* PageViewController.swift */; };
+		1C4C5CEC1EB230F10045B9EA /* PageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5CEB1EB230F10045B9EA /* PageTableViewCell.swift */; };
+		1C4C5CEE1EB246FA0045B9EA /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5CED1EB246FA0045B9EA /* EventViewController.swift */; };
+		1C4C5CF01EB2471B0045B9EA /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5CEF1EB2471B0045B9EA /* EventTableViewCell.swift */; };
+		1C4C5CF21EB257AF0045B9EA /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5CF11EB257AF0045B9EA /* PlaceViewController.swift */; };
+		1C4C5CF41EB258810045B9EA /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5CF31EB258810045B9EA /* PlaceTableViewCell.swift */; };
+		1C4C5CF61EB25C990045B9EA /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5CF51EB25C990045B9EA /* GroupViewController.swift */; };
+		1C4C5CF81EB25D570045B9EA /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5CF71EB25D570045B9EA /* GroupTableViewCell.swift */; };
+		1C4C5CFA1EB2664A0045B9EA /* FavPageViewCongroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5CF91EB2664A0045B9EA /* FavPageViewCongroller.swift */; };
+		1C4C5CFC1EB2676A0045B9EA /* FavPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5CFB1EB2676A0045B9EA /* FavPageTableViewCell.swift */; };
+		1C4C5CFE1EB26BFE0045B9EA /* FavEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5CFD1EB26BFE0045B9EA /* FavEventViewController.swift */; };
+		1C4C5D001EB26CCF0045B9EA /* FavEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5CFF1EB26CCF0045B9EA /* FavEventTableViewCell.swift */; };
+		1C4C5D021EB271280045B9EA /* FavPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5D011EB271280045B9EA /* FavPlaceViewController.swift */; };
+		1C4C5D041EB271AA0045B9EA /* FavPlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5D031EB271AA0045B9EA /* FavPlaceTableViewCell.swift */; };
+		1C4C5D061EB2720A0045B9EA /* FavGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5D051EB2720A0045B9EA /* FavGroupTableViewCell.swift */; };
+		1C4C5D081EB2727A0045B9EA /* FavGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C5D071EB2727A0045B9EA /* FavGroupViewController.swift */; };
 		1CFA1FE71EAC2E3A00718E60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA1FE61EAC2E3A00718E60 /* AppDelegate.swift */; };
 		1CFA1FE91EAC2E3A00718E60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA1FE81EAC2E3A00718E60 /* ViewController.swift */; };
 		1CFA1FEC1EAC2E3A00718E60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFA1FEA1EAC2E3A00718E60 /* Main.storyboard */; };
@@ -14,6 +51,9 @@
 		1CFA1FF11EAC2E3A00718E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFA1FEF1EAC2E3A00718E60 /* LaunchScreen.storyboard */; };
 		1CFA1FFC1EAC2E3A00718E60 /* EzFBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA1FFB1EAC2E3A00718E60 /* EzFBTests.swift */; };
 		1CFA20071EAC2E3A00718E60 /* EzFBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA20061EAC2E3A00718E60 /* EzFBUITests.swift */; };
+		458EFC1557F24529FE6D6246 /* Pods_EzFBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E6B44F57C6DC737C18815E /* Pods_EzFBTests.framework */; };
+		55A0E44915CF8C123094AB90 /* Pods_EzFBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC5E804D5AB390A111A9F5E /* Pods_EzFBUITests.framework */; };
+		7ACE3220469D06D0C298D86A /* Pods_EzFB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D239E3712175D65018244A /* Pods_EzFB.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +74,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C05C9FD1EB15883009C247C /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		1C05CA0F1EB1A42F009C247C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1C05CA101EB1A42F009C247C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		1C05CA111EB1A42F009C247C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		1C05CA121EB1A42F009C247C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		1C0C3A611EAE819600978231 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1C0C3A661EAED1C300978231 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		1C0C3A681EAEF71500978231 /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		1C0C3A6A1EAF3CF900978231 /* AlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		1C0C3A6C1EB012CA00978231 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		1C0C3A6E1EB0144800978231 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		1C40A8201EAC75BE009A078A /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		1C40A8231EAD4B8F009A078A /* EzFB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EzFB-Bridging-Header.h"; sourceTree = "<group>"; };
+		1C40A8241EAD4B8F009A078A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		1C40A8251EAD4B8F009A078A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		1C40A8281EAD523B009A078A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1C40A82F1EAD870A009A078A /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		1C40A8331EAD9575009A078A /* FavUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavUserViewController.swift; sourceTree = "<group>"; };
+		1C40A8351EAD9D08009A078A /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		1C46ED441EB0416800DEA73F /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		1C46ED461EB05DAB00DEA73F /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		1C46ED481EB0625400DEA73F /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1C4C5CE71EB1F8F40045B9EA /* FavUserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavUserTableViewCell.swift; sourceTree = "<group>"; };
+		1C4C5CE91EB22E040045B9EA /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		1C4C5CEB1EB230F10045B9EA /* PageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTableViewCell.swift; sourceTree = "<group>"; };
+		1C4C5CED1EB246FA0045B9EA /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		1C4C5CEF1EB2471B0045B9EA /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		1C4C5CF11EB257AF0045B9EA /* PlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		1C4C5CF31EB258810045B9EA /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		1C4C5CF51EB25C990045B9EA /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		1C4C5CF71EB25D570045B9EA /* GroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		1C4C5CF91EB2664A0045B9EA /* FavPageViewCongroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavPageViewCongroller.swift; sourceTree = "<group>"; };
+		1C4C5CFB1EB2676A0045B9EA /* FavPageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavPageTableViewCell.swift; sourceTree = "<group>"; };
+		1C4C5CFD1EB26BFE0045B9EA /* FavEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavEventViewController.swift; sourceTree = "<group>"; };
+		1C4C5CFF1EB26CCF0045B9EA /* FavEventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavEventTableViewCell.swift; sourceTree = "<group>"; };
+		1C4C5D011EB271280045B9EA /* FavPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavPlaceViewController.swift; sourceTree = "<group>"; };
+		1C4C5D031EB271AA0045B9EA /* FavPlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavPlaceTableViewCell.swift; sourceTree = "<group>"; };
+		1C4C5D051EB2720A0045B9EA /* FavGroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavGroupTableViewCell.swift; sourceTree = "<group>"; };
+		1C4C5D071EB2727A0045B9EA /* FavGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavGroupViewController.swift; sourceTree = "<group>"; };
 		1CFA1FE31EAC2E3A00718E60 /* EzFB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzFB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFA1FE61EAC2E3A00718E60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CFA1FE81EAC2E3A00718E60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +126,15 @@
 		1CFA20021EAC2E3A00718E60 /* EzFBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzFBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFA20061EAC2E3A00718E60 /* EzFBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzFBUITests.swift; sourceTree = "<group>"; };
 		1CFA20081EAC2E3A00718E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E6B44F57C6DC737C18815E /* Pods_EzFBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EzFBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6428FD4CAAF18CE26763BE1A /* Pods-EzFBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzFBUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EzFBUITests/Pods-EzFBUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		69237D6D458F41F9AAB55264 /* Pods-EzFBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzFBTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EzFBTests/Pods-EzFBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E103068D74DAA2FB17D92E6 /* Pods-EzFB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzFB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EzFB/Pods-EzFB.debug.xcconfig"; sourceTree = "<group>"; };
+		8747439F6D6EDAB9CB8FEB4F /* Pods-EzFBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzFBUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EzFBUITests/Pods-EzFBUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88D239E3712175D65018244A /* Pods_EzFB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EzFB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC8CECD0C0E798F9E253CE4 /* Pods-EzFBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzFBTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EzFBTests/Pods-EzFBTests.release.xcconfig"; sourceTree = "<group>"; };
+		A787EAD212CAC00C2D6DDEC5 /* Pods-EzFB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzFB.release.xcconfig"; path = "Pods/Target Support Files/Pods-EzFB/Pods-EzFB.release.xcconfig"; sourceTree = "<group>"; };
+		CEC5E804D5AB390A111A9F5E /* Pods_EzFBUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EzFBUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +142,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C05CA131EB1A42F009C247C /* Bolts.framework in Frameworks */,
+				1C05CA141EB1A42F009C247C /* FBSDKCoreKit.framework in Frameworks */,
+				1C05CA161EB1A42F009C247C /* FBSDKShareKit.framework in Frameworks */,
+				1C05CA151EB1A42F009C247C /* FBSDKLoginKit.framework in Frameworks */,
+				1C0C3A621EAE819600978231 /* CoreLocation.framework in Frameworks */,
+				7ACE3220469D06D0C298D86A /* Pods_EzFB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				458EFC1557F24529FE6D6246 /* Pods_EzFBTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +163,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A0E44915CF8C123094AB90 /* Pods_EzFBUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C0C3A631EAEAAF700978231 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C0C3A681EAEF71500978231 /* Record.swift */,
+				1C0C3A6C1EB012CA00978231 /* Album.swift */,
+				1C46ED481EB0625400DEA73F /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1C40A8221EAD4B04009A078A /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C40A8241EAD4B8F009A078A /* SWRevealViewController.h */,
+				1C40A8251EAD4B8F009A078A /* SWRevealViewController.m */,
+				1C40A8231EAD4B8F009A078A /* EzFB-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		1C40A8271EAD51FF009A078A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C4806161EB2984500C0523F /* Favorites */,
+				1C4806151EB2981700C0523F /* SearchResults */,
+				1C40A8201EAC75BE009A078A /* MenuController.swift */,
+				1C40A8281EAD523B009A078A /* HomeViewController.swift */,
+				1C40A82F1EAD870A009A078A /* AboutViewController.swift */,
+				1C0C3A6A1EAF3CF900978231 /* AlbumViewController.swift */,
+				1C46ED441EB0416800DEA73F /* PostViewController.swift */,
+				1C05C9FD1EB15883009C247C /* ShareViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1C4806151EB2981700C0523F /* SearchResults */ = {
+			isa = PBXGroup;
+			children = (
+				1C40A8351EAD9D08009A078A /* UserViewController.swift */,
+				1C4C5CE91EB22E040045B9EA /* PageViewController.swift */,
+				1C4C5CED1EB246FA0045B9EA /* EventViewController.swift */,
+				1C4C5CF11EB257AF0045B9EA /* PlaceViewController.swift */,
+				1C4C5CF51EB25C990045B9EA /* GroupViewController.swift */,
+			);
+			name = SearchResults;
+			sourceTree = "<group>";
+		};
+		1C4806161EB2984500C0523F /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				1C40A8331EAD9575009A078A /* FavUserViewController.swift */,
+				1C4C5CF91EB2664A0045B9EA /* FavPageViewCongroller.swift */,
+				1C4C5CFD1EB26BFE0045B9EA /* FavEventViewController.swift */,
+				1C4C5D011EB271280045B9EA /* FavPlaceViewController.swift */,
+				1C4C5D071EB2727A0045B9EA /* FavGroupViewController.swift */,
+			);
+			name = Favorites;
+			sourceTree = "<group>";
+		};
 		1CFA1FDA1EAC2E3A00718E60 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +236,8 @@
 				1CFA1FFA1EAC2E3A00718E60 /* EzFBTests */,
 				1CFA20051EAC2E3A00718E60 /* EzFBUITests */,
 				1CFA1FE41EAC2E3A00718E60 /* Products */,
+				A2537CB461B0ED0CC30717C6 /* Pods */,
+				F8CDBD91AF36EE7209F35BB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +254,10 @@
 		1CFA1FE51EAC2E3A00718E60 /* EzFB */ = {
 			isa = PBXGroup;
 			children = (
+				1C0C3A631EAEAAF700978231 /* Model */,
+				1C40A8271EAD51FF009A078A /* Controller */,
+				1C40A8221EAD4B04009A078A /* SWRevealViewController */,
+				1CFA20141EAC64F300718E60 /* Views */,
 				1CFA1FE61EAC2E3A00718E60 /* AppDelegate.swift */,
 				1CFA1FE81EAC2E3A00718E60 /* ViewController.swift */,
 				1CFA1FEA1EAC2E3A00718E60 /* Main.storyboard */,
@@ -125,6 +286,53 @@
 			path = EzFBUITests;
 			sourceTree = "<group>";
 		};
+		1CFA20141EAC64F300718E60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C0C3A661EAED1C300978231 /* UserTableViewCell.swift */,
+				1C0C3A6E1EB0144800978231 /* AlbumTableViewCell.swift */,
+				1C46ED461EB05DAB00DEA73F /* PostTableViewCell.swift */,
+				1C4C5CE71EB1F8F40045B9EA /* FavUserTableViewCell.swift */,
+				1C4C5CEB1EB230F10045B9EA /* PageTableViewCell.swift */,
+				1C4C5CEF1EB2471B0045B9EA /* EventTableViewCell.swift */,
+				1C4C5CF31EB258810045B9EA /* PlaceTableViewCell.swift */,
+				1C4C5CF71EB25D570045B9EA /* GroupTableViewCell.swift */,
+				1C4C5CFB1EB2676A0045B9EA /* FavPageTableViewCell.swift */,
+				1C4C5CFF1EB26CCF0045B9EA /* FavEventTableViewCell.swift */,
+				1C4C5D031EB271AA0045B9EA /* FavPlaceTableViewCell.swift */,
+				1C4C5D051EB2720A0045B9EA /* FavGroupTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A2537CB461B0ED0CC30717C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E103068D74DAA2FB17D92E6 /* Pods-EzFB.debug.xcconfig */,
+				A787EAD212CAC00C2D6DDEC5 /* Pods-EzFB.release.xcconfig */,
+				69237D6D458F41F9AAB55264 /* Pods-EzFBTests.debug.xcconfig */,
+				9CC8CECD0C0E798F9E253CE4 /* Pods-EzFBTests.release.xcconfig */,
+				6428FD4CAAF18CE26763BE1A /* Pods-EzFBUITests.debug.xcconfig */,
+				8747439F6D6EDAB9CB8FEB4F /* Pods-EzFBUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8CDBD91AF36EE7209F35BB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C05CA0F1EB1A42F009C247C /* Bolts.framework */,
+				1C05CA101EB1A42F009C247C /* FBSDKCoreKit.framework */,
+				1C05CA111EB1A42F009C247C /* FBSDKLoginKit.framework */,
+				1C05CA121EB1A42F009C247C /* FBSDKShareKit.framework */,
+				1C0C3A611EAE819600978231 /* CoreLocation.framework */,
+				88D239E3712175D65018244A /* Pods_EzFB.framework */,
+				50E6B44F57C6DC737C18815E /* Pods_EzFBTests.framework */,
+				CEC5E804D5AB390A111A9F5E /* Pods_EzFBUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +340,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CFA200B1EAC2E3A00718E60 /* Build configuration list for PBXNativeTarget "EzFB" */;
 			buildPhases = (
+				75A3825E67A8E2314976647C /* [CP] Check Pods Manifest.lock */,
 				1CFA1FDF1EAC2E3A00718E60 /* Sources */,
 				1CFA1FE01EAC2E3A00718E60 /* Frameworks */,
 				1CFA1FE11EAC2E3A00718E60 /* Resources */,
+				D05FFE9B87B33DBC635598EB /* [CP] Embed Pods Frameworks */,
+				A26F4D7ECEA266F2928E470D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +360,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CFA200E1EAC2E3A00718E60 /* Build configuration list for PBXNativeTarget "EzFBTests" */;
 			buildPhases = (
+				2BDD9DFC3DB683E122B380B1 /* [CP] Check Pods Manifest.lock */,
 				1CFA1FF31EAC2E3A00718E60 /* Sources */,
 				1CFA1FF41EAC2E3A00718E60 /* Frameworks */,
 				1CFA1FF51EAC2E3A00718E60 /* Resources */,
+				0B6068D7CD9F3A97B5CBE82D /* [CP] Embed Pods Frameworks */,
+				30DFDFEFD0580EF0292BE5A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +381,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CFA20111EAC2E3A00718E60 /* Build configuration list for PBXNativeTarget "EzFBUITests" */;
 			buildPhases = (
+				5C45E7C8149032E72DBE6179 /* [CP] Check Pods Manifest.lock */,
 				1CFA1FFE1EAC2E3A00718E60 /* Sources */,
 				1CFA1FFF1EAC2E3A00718E60 /* Frameworks */,
 				1CFA20001EAC2E3A00718E60 /* Resources */,
+				735179A6DC0C597142A98AE7 /* [CP] Embed Pods Frameworks */,
+				AF4A04B86840400E1911A6A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +410,8 @@
 				TargetAttributes = {
 					1CFA1FE21EAC2E3A00718E60 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DRDUNUGA7Z;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					1CFA1FF61EAC2E3A00718E60 = {
@@ -254,13 +473,183 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B6068D7CD9F3A97B5CBE82D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EzFBTests/Pods-EzFBTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BDD9DFC3DB683E122B380B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		30DFDFEFD0580EF0292BE5A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EzFBTests/Pods-EzFBTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C45E7C8149032E72DBE6179 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		735179A6DC0C597142A98AE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EzFBUITests/Pods-EzFBUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75A3825E67A8E2314976647C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A26F4D7ECEA266F2928E470D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EzFB/Pods-EzFB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF4A04B86840400E1911A6A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EzFBUITests/Pods-EzFBUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D05FFE9B87B33DBC635598EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EzFB/Pods-EzFB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1CFA1FDF1EAC2E3A00718E60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C40A8301EAD870A009A078A /* AboutViewController.swift in Sources */,
+				1C40A8361EAD9D08009A078A /* UserViewController.swift in Sources */,
+				1C4C5D001EB26CCF0045B9EA /* FavEventTableViewCell.swift in Sources */,
+				1C4C5CEE1EB246FA0045B9EA /* EventViewController.swift in Sources */,
+				1C4C5D061EB2720A0045B9EA /* FavGroupTableViewCell.swift in Sources */,
+				1C4C5CE81EB1F8F40045B9EA /* FavUserTableViewCell.swift in Sources */,
+				1C4C5CF61EB25C990045B9EA /* GroupViewController.swift in Sources */,
+				1C46ED471EB05DAB00DEA73F /* PostTableViewCell.swift in Sources */,
+				1C46ED451EB0416800DEA73F /* PostViewController.swift in Sources */,
+				1C40A8211EAC75BE009A078A /* MenuController.swift in Sources */,
+				1C0C3A671EAED1C300978231 /* UserTableViewCell.swift in Sources */,
+				1C40A8341EAD9575009A078A /* FavUserViewController.swift in Sources */,
+				1C4C5CFC1EB2676A0045B9EA /* FavPageTableViewCell.swift in Sources */,
+				1C40A8291EAD523B009A078A /* HomeViewController.swift in Sources */,
+				1C4C5CF81EB25D570045B9EA /* GroupTableViewCell.swift in Sources */,
+				1C4C5CF21EB257AF0045B9EA /* PlaceViewController.swift in Sources */,
+				1C4C5D021EB271280045B9EA /* FavPlaceViewController.swift in Sources */,
+				1C4C5CF41EB258810045B9EA /* PlaceTableViewCell.swift in Sources */,
+				1C40A8261EAD4B8F009A078A /* SWRevealViewController.m in Sources */,
 				1CFA1FE91EAC2E3A00718E60 /* ViewController.swift in Sources */,
+				1C4C5CFE1EB26BFE0045B9EA /* FavEventViewController.swift in Sources */,
+				1C4C5CF01EB2471B0045B9EA /* EventTableViewCell.swift in Sources */,
+				1C0C3A691EAEF71500978231 /* Record.swift in Sources */,
+				1C46ED491EB0625400DEA73F /* Post.swift in Sources */,
+				1C4C5CFA1EB2664A0045B9EA /* FavPageViewCongroller.swift in Sources */,
 				1CFA1FE71EAC2E3A00718E60 /* AppDelegate.swift in Sources */,
+				1C4C5CEC1EB230F10045B9EA /* PageTableViewCell.swift in Sources */,
+				1C4C5CEA1EB22E040045B9EA /* PageViewController.swift in Sources */,
+				1C4C5D081EB2727A0045B9EA /* FavGroupViewController.swift in Sources */,
+				1C4C5D041EB271AA0045B9EA /* FavPlaceTableViewCell.swift in Sources */,
+				1C0C3A6F1EB0144800978231 /* AlbumTableViewCell.swift in Sources */,
+				1C0C3A6B1EAF3CF900978231 /* AlbumViewController.swift in Sources */,
+				1C0C3A6D1EB012CA00978231 /* Album.swift in Sources */,
+				1C05C9FE1EB15883009C247C /* ShareViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,30 +797,50 @@
 		};
 		1CFA200C1EAC2E3A00718E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E103068D74DAA2FB17D92E6 /* Pods-EzFB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = DRDUNUGA7Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = EzFB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GL.EzFB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EzFB/EzFB-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		1CFA200D1EAC2E3A00718E60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A787EAD212CAC00C2D6DDEC5 /* Pods-EzFB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = DRDUNUGA7Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = EzFB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GL.EzFB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EzFB/EzFB-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		1CFA200F1EAC2E3A00718E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69237D6D458F41F9AAB55264 /* Pods-EzFBTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +855,7 @@
 		};
 		1CFA20101EAC2E3A00718E60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC8CECD0C0E798F9E253CE4 /* Pods-EzFBTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +870,7 @@
 		};
 		1CFA20121EAC2E3A00718E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6428FD4CAAF18CE26763BE1A /* Pods-EzFBUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = EzFBUITests/Info.plist;
@@ -473,6 +884,7 @@
 		};
 		1CFA20131EAC2E3A00718E60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8747439F6D6EDAB9CB8FEB4F /* Pods-EzFBUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = EzFBUITests/Info.plist;
@@ -503,6 +915,7 @@
 				1CFA200D1EAC2E3A00718E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CFA200E1EAC2E3A00718E60 /* Build configuration list for PBXNativeTarget "EzFBTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +924,7 @@
 				1CFA20101EAC2E3A00718E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CFA20111EAC2E3A00718E60 /* Build configuration list for PBXNativeTarget "EzFBUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +933,7 @@
 				1CFA20131EAC2E3A00718E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
